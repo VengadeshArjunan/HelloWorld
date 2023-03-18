@@ -9,5 +9,9 @@ public class GreetingController {
 	public String greeting() {
 		return "Hello World!";
 	}
+	@GetMapping("/greeting/user")
+	public String greetinguser() {
+		return "Hello User!";
+	}
 
 }
